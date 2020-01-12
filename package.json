@@ -1,0 +1,24 @@
+{
+  "name": "nicer-github-ref",
+  "version": "1.0.0",
+  "description": "Action to make the current Github ref name more friendly for scripting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnwbyrd/nicer-github-ref.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnwbyrd/nicer-github-ref/issues"
+  },
+  "homepage": "https://github.com/johnwbyrd/nicer-github-ref#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.1",
+    "@actions/github": "^2.0.1"
+  }
+}

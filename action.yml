@@ -1,0 +1,11 @@
+name: 'nicer-github-ref'
+description: 'Remove all slashes from the current Github ref and make it friendlier'
+inputs:
+  ref:
+    description: Your current \$\{\{ github.ref \}\}
+outputs:
+  ref:
+    description: A cleaner description of the current Github ref
+runs:
+  using: 'node12'
+  main: 'index.js'
